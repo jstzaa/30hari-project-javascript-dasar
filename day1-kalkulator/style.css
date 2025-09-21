@@ -1,0 +1,92 @@
+body {
+  background-image: url(/day1-kalkulator/img/bg.jpg);
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px wheat solid;
+  margin: 20% 10%;
+  border-radius: 20px;
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+h1 {
+  margin: 30px;
+  font-family: "poppins";
+  text-align: center;
+  line-height: 30px;
+  color: whitesmoke;
+}
+
+.input {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+input {
+  width: 250px;
+  height: 50px;
+  border-radius: 10px;
+  border: 1px whitesmoke solid;
+  padding-left: 30px;
+  font-family: "poppins";
+  font-weight: 700;
+  font-size: 20px;
+}
+
+input::-webkit-inner-spin-button,
+input::-webkit-outer-spin-button,
+input:focus {
+  -webkit-appearance: none;
+  outline: none;
+}
+
+input::placeholder {
+  opacity: 30%;
+  font-weight: 400;
+}
+
+.operator {
+  display: flex;
+  gap: 10px;
+  margin-top: 30px;
+}
+
+#operator {
+  font-family: "poppins";
+  font-size: 30px;
+  width: 50px;
+  height: 50px;
+  border: none;
+  border-radius: 10px;
+  background-color: aquamarine;
+  transition: 0.25s;
+  color: whitesmoke;
+  background-color: rgba(245, 222, 179, 0.068);
+}
+
+#operator:hover {
+  background-color: lightgreen;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  transform: scale(1.1);
+}
+
+.hasil {
+  margin-bottom: 30px;
+}
+
+@media screen and (min-width: 992px) {
+  .container {
+    margin: 5% 30%;
+  }
+}
