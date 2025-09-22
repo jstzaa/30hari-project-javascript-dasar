@@ -11,7 +11,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  border: 1px wheat solid;
+  border: 1px whitesmoke solid;
   margin: 20% 10%;
   border-radius: 20px;
   -webkit-backdrop-filter: blur(10px);
@@ -69,14 +69,12 @@ input::placeholder {
   height: 50px;
   border: none;
   border-radius: 10px;
-  background-color: aquamarine;
   transition: 0.25s;
   color: whitesmoke;
-  background-color: rgba(245, 222, 179, 0.068);
+  background-color: rgba(112, 98, 70, 0.068);
 }
 
 #operator:hover {
-  background-color: lightgreen;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   transform: scale(1.1);
 }
