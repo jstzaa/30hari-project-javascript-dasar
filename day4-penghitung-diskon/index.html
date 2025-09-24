@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap"
+      rel="stylesheet"
+    />
+    <title>Penghitung Diskon</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Penghitung Diskon</h1>
+      <div class="input">
+        <input
+          type="number"
+          name="number"
+          id="harga"
+          placeholder="Masukkan harga awal"
+        />
+        <input
+          type="number"
+          name="number"
+          id="diskon"
+          placeholder="Masukkan diskon"
+        />
+      </div>
+      <div class="button">
+        <button id="hitung">Hitung</button>
+        <button id="hapus">Hapus</button>
+      </div>
+      <div class="output">
+        <h2>Harga setelah diskon: <br /><span id="hasil"></span></h2>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
